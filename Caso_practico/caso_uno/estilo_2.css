@@ -1,0 +1,22 @@
+h1
+{
+    text-align: center;
+}
+#head, #end
+{
+    background-color: orange;
+}
+table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+th, td 
+{
+    padding: 30px;
+}
+tr:nth-child(even) {background-color: #33AFFF}
+tr:nth-child(odd) {background-color: #C8ECFF}

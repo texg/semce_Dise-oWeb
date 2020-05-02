@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_3.css">
+    <title>Login</title>
+</head>
+<body>
+
+<div class="gradient-border" id="box">
+    <form action="/cl/xhr/json/sign-up-for-spotify.php" method="POST">
+        <h1>Formulario de Registro</h1>
+        <br>
+        <label>Nombre</label>
+        <br>
+        <input type="text" id="fusuario" name="fusuario" value="">
+        <br>
+        <br>
+        <label>Apellidos</label>
+        <br>
+        <input type="text" id="fapellidos" name="fapellidos" value="">
+        <br>
+        <br>
+        <label>Password</label>
+        <br>
+        <input type="password" id="password" name="pasword"> 
+        <br>
+        <br>
+        <label>Sexo</label>
+        <br>
+        <select id="fsexo" name="fsexo">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br>
+        <br>
+        <label>Fecha de nacimiento</label>
+        <br>
+        <input type="date" id="ffecha" name="fname">
+        <br>
+        <br>
+        <label>Color favorito</label>
+        <br>
+        <input type="text" id="fcolor" name="fcolor">
+        <br>
+        <br>
+        <button>Regístrate</button>
+    </form>
+</div>
+</body>
+</html>

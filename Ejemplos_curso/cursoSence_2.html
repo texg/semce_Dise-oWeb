@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+
+ <body>
+     <h1>Gestor de Tareas</h1>
+
+    <section>
+        <table>
+            <thead>
+                <th id="t_id"></th>
+                <th id="t_name"></th>
+                <th id="t_todo"></th>
+                <th id="t_prog"></th>
+                <th id="t_done"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="name">Lavar la ropa</td>
+                    <td class="ico">X</td>
+                    <td class="ico"></td>
+                    <td class="ico"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="name">Ir al veterinario</td>
+                    <td class="ico"></td>
+                    <td class="ico">X</td>
+                    <td class="ico"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="name">Escribir correo importante</td>
+                    <td class="ico"></td>
+                    <td class="ico"></td>
+                    <td class="ico">X</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+    <form>
+        <h2>Información de la tarea</h2>
+        <div id="name">
+            <label for="task_name">Tarea</label>
+            <input type="text" id="task_name" name="task_name" >
+        </div>
+        <label>Estado</label>
+        <div id="state">
+            <input type="checkbox" id="task_todo" name="task_state" value="todo">
+            <label for="task_todo">Pendiente</label>
+
+            <input type="checkbox" id="task_progreso" name="task_name" value="progress">
+            <label for="task_progreso">En Progreso</label>
+
+            <input type="checkbox" id="task_done" name="task_name" value="done">
+            <label for="task_done">Hecho</label>
+        </div>
+        <div id="detail"> 
+            <label for="task_detail">Detalle</label>
+            <textarea id="task_detail" name="task_name"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Guardar Cambios</button>
+        </div>
+    </form>
+
+ </body>
+</head>
+</html>
